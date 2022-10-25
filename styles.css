@@ -30,7 +30,7 @@ h3 abbr, h4 abbr{
 h1 {
     font-family: 'Orbitron',sans-serif;
     text-align: center;
-    padding: 70px auto;
+    padding: 70px 0;
     color: white;
 
 }
@@ -93,6 +93,11 @@ figcaption.fig1{
     font-style: italic;
 }
 
+pre{
+    border: 1px solid black;
+    padding: 20px ;
+}
+
 code{
     color: #949090;
     font-style: italic;
@@ -104,7 +109,7 @@ pre code{
 footer {
     height: 200px;
     background-color: #000000 !important;
-    padding: 80px auto;
+    padding: 80px 0 0 0;
 }
 .footer-text{
     font-family: 'Orbitron',sans-serif;
@@ -113,5 +118,9 @@ footer {
     font-size: 20px;
     font-style: bold;
 
+}
+
+.footer-text abbr{
+    text-decoration: none;
 }
 
