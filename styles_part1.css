@@ -14,12 +14,18 @@ figure {/*la figura*/
     padding: 0.5em;
 }
 
-section{/*seccions*/
+section {/*seccions*/
     border: thin silver solid;
     margin-left: 10px;
     padding: 10px;
     line-height: 1.5;
 
+}
+
+p a{
+    text-align: center;
+    font-style: normal;
+    font-size: medium; 
 }
 
 img.pic { /*la imatge*/
