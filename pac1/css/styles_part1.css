@@ -34,6 +34,12 @@ img.pic { /*la imatge*/
     height: auto;
 }
 
+img.pic2{
+    max-width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
 
 /*codi per la pregunta 2*/
 ul.preg4, dl.preg4{
